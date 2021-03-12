@@ -1,0 +1,58 @@
+.design {
+  // position: relative;
+  background-image: url("../../images/Layer\ 45.png");
+  background-repeat: no-repeat;
+
+  &__content {
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Kaushan Script";
+  }
+
+  &__description {
+    font-size: 30px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Montserrat";
+  }
+
+  &__grid__container {
+    font-size: 16px;
+
+    &__header {
+      font-size: 14px;
+      color: #333333;
+      font-weight: 400;
+      font-family: "Montserrat";
+    }
+    &__content {
+      font-size: 15px;
+      line-height: 24px;
+      color: #999999;
+      font-weight: 400;
+      font-family: "Roboto";
+    }
+  }
+}
+
+.design__container {
+
+
+  &__mainimage {
+
+    width: 570px;
+    
+  }
+
+  &__img {
+
+    
+   
+
+    margin-top: 200px;
+
+    right: 23.6%;
+    // right:350px
+  }
+}

@@ -1,0 +1,55 @@
+.plan {
+  &__content {
+    font: {
+      size: 50px;
+    }
+  }
+
+  &__description {
+    color: #8f8f8b;
+
+    font: {
+      size: 20px;
+    }
+  }
+}
+.circle {
+  background-color: #f9fafc;
+
+  &__container {
+    &__circle {
+      width: 155px;
+      height: 155px;
+      border-color: #e2e5ff;
+      border-width: 40px !important;
+
+      border-style: solid;
+
+      background-color: #edefff;
+
+      &__txt {
+        font: {
+          size: 50px;
+        }
+      }
+
+      &__content {
+        font: {
+          size: 16px;
+        }
+        color: #9d9aa5;
+      }
+
+      &__head {
+        font: {
+          size: 17px;
+        }
+      }
+      &__foot {
+        font: {
+          size: 21px;
+        }
+      }
+    }
+  }
+}
